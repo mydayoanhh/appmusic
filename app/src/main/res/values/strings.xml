@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">App Music</string>
+	<string name="ek_img_content">ExportKit Image</string>
+	<string name="millions_of_song__find_music_you_love__string">Millions of song.\nFind music you love.</string>
+	<string name="email_or_username_string">Email or username</string>
+	<string name="password_string">Password</string>
+	<string name="log_in_string">Log in</string>
+    <string name="default_web_client_id" />
+
+</resources>

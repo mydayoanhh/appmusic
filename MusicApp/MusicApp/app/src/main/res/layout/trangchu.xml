@@ -1,0 +1,3243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TrangChu"
+    android:weightSum="28"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="left|center"
+            android:paddingLeft="10dp"
+            android:text="Home"
+            android:textColor="@color/white"
+            android:textColorHighlight="#FFFFFF"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText,NestedWeights,RtlHardcoded,RtlSymmetry" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="Sign"
+            android:gravity="end">
+            <ImageView
+                android:layout_margin="10dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="10dp"
+                android:scaleType="fitCenter"
+                android:onClick="Sign"
+                app:srcCompat="@drawable/n3"
+                tools:ignore="ContentDescription" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="26">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="Bảng xếp hạng"
+                    android:textColor="@color/white"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        tools:ignore="ScrollViewSize">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:padding="10dp">
+
+
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="170dp"
+                                    android:layout_height="170dp"
+                                    app:cardCornerRadius="10dp">
+                                    <ImageView
+                                        android:id="@+id/imageView6"
+                                        android:layout_width="170dp"
+                                        android:layout_height="170dp"
+                                        android:scaleType="fitCenter"
+                                        app:srcCompat="@drawable/n4" />
+
+                                </androidx.cardview.widget.CardView>
+
+
+                                <TextView
+                                    android:id="@+id/textView18"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="HOT HITS VIETNAM"
+                                    android:textColor="@color/white"
+                                    android:textSize="18dp"
+                                    android:gravity="center"
+                                    android:textStyle="bold"/>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:paddingRight="10dp"
+                                android:paddingBottom="10dp"
+                                android:paddingTop="10dp">
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="170dp"
+                                    android:layout_height="170dp"
+                                    app:cardCornerRadius="10dp">
+                                    <ImageView
+                                        android:id="@+id/imageView7"
+                                        android:layout_width="170dp"
+                                        android:layout_height="170dp"
+                                        android:scaleType="fitCenter"
+                                        app:srcCompat="@drawable/n5" />
+                                </androidx.cardview.widget.CardView>
+
+
+                                <TextView
+                                    android:id="@+id/textView19"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:text="Những bản nhạc được nghe nhiều nhất tại Việt Nam"
+                                    android:textColor="@color/white"
+                                    android:textSize="14dp"
+                                    android:textStyle="bold"
+                                    tools:ignore="TextSizeCheck" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:paddingTop="10dp"
+                                android:paddingBottom="10dp"
+                                android:paddingRight="10dp">
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="170dp"
+                                    android:layout_height="170dp"
+                                    app:cardCornerRadius="10dp">
+                                    <ImageView
+                                        android:id="@+id/imageView8"
+                                        android:layout_width="170dp"
+                                        android:layout_height="170dp"
+                                        android:scaleType="fitCenter"
+                                        app:srcCompat="@drawable/n6" />
+                                </androidx.cardview.widget.CardView>
+
+                                <TextView
+                                    android:id="@+id/textView20"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:text="Những bản nhạc được nghe nhiều nhất tại Toàn Cầu"
+                                    android:textColor="@color/white"
+                                    android:textSize="14dp"
+                                    android:textStyle="bold"
+                                    tools:ignore="TextSizeCheck" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                    </HorizontalScrollView>
+                </ScrollView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Trending Music"
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+                    android:textColor="@color/white"
+                    android:padding="10dp"/>
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:padding="10dp">
+
+                                <FrameLayout
+                                    android:layout_width="170dp"
+                                    android:layout_height="170dp">
+                                    <androidx.cardview.widget.CardView
+                                        android:layout_width="170dp"
+                                        android:layout_height="170dp"
+                                        app:cardCornerRadius="6dp"
+                                        app:cardBackgroundColor="@color/black">
+                                        <androidx.cardview.widget.CardView
+                                            android:layout_width="150dp"
+                                            android:layout_height="150dp"
+                                            app:cardCornerRadius="6dp"
+                                            app:cardBackgroundColor="@color/ô"
+                                            android:layout_margin="20dp">
+                                        </androidx.cardview.widget.CardView>
+                                        <androidx.cardview.widget.CardView
+                                            android:layout_width="150dp"
+                                            android:layout_height="150dp"
+                                            app:cardCornerRadius="6dp"
+                                            app:cardBackgroundColor="#673232"
+                                            android:layout_margin="10dp">
+                                        </androidx.cardview.widget.CardView>
+                                    </androidx.cardview.widget.CardView>
+                                    <androidx.cardview.widget.CardView
+                                        android:layout_width="150dp"
+                                        android:layout_height="150dp"
+                                        app:cardCornerRadius="6dp">
+                                        <ImageView
+                                            android:layout_width="150dp"
+                                            android:layout_height="150dp"
+                                            android:scaleType="fitCenter"
+                                            app:srcCompat="@drawable/n7"
+                                            tools:ignore="ContentDescription" />
+                                    </androidx.cardview.widget.CardView>
+                                </FrameLayout>
+
+                                <TextView
+                                    android:id="@+id/textView21"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:text="Indie"
+                                    android:textColor="@color/white"
+                                    android:textSize="18dp"
+                                    android:textStyle="bold"
+                                    tools:ignore="TextSizeCheck" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:paddingTop="10dp"
+                                android:paddingRight="10dp"
+                                android:paddingBottom="10dp">
+
+                                <FrameLayout
+                                    android:layout_width="170dp"
+                                    android:layout_height="170dp">
+                                    <androidx.cardview.widget.CardView
+                                        android:layout_width="170dp"
+                                        android:layout_height="170dp"
+                                        app:cardCornerRadius="6dp"
+                                        app:cardBackgroundColor="@color/black">
+                                        <androidx.cardview.widget.CardView
+                                            android:layout_width="150dp"
+                                            android:layout_height="150dp"
+                                            app:cardCornerRadius="6dp"
+                                            app:cardBackgroundColor="@color/ô"
+                                            android:layout_margin="20dp">
+                                        </androidx.cardview.widget.CardView>
+                                        <androidx.cardview.widget.CardView
+                                            android:layout_width="150dp"
+                                            android:layout_height="150dp"
+                                            app:cardCornerRadius="6dp"
+                                            app:cardBackgroundColor="#473232"
+                                            android:layout_margin="10dp">
+                                        </androidx.cardview.widget.CardView>
+                                    </androidx.cardview.widget.CardView>
+                                    <androidx.cardview.widget.CardView
+                                        android:layout_width="150dp"
+                                        android:layout_height="150dp"
+                                        app:cardCornerRadius="6dp">
+                                        <ImageView
+                                            android:layout_width="150dp"
+                                            android:layout_height="150dp"
+                                            android:scaleType="fitCenter"
+                                            app:srcCompat="@drawable/n8"
+                                            tools:ignore="ContentDescription" />
+                                    </androidx.cardview.widget.CardView>
+                                </FrameLayout>
+
+                                <TextView
+                                    android:id="@+id/textView22"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="RnB"
+                                    android:textColor="@color/white"
+                                    android:textSize="18dp"
+                                    android:gravity="center"
+                                    android:textStyle="bold"/>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:paddingBottom="10dp"
+                                android:paddingRight="10dp"
+                                android:paddingTop="10dp">
+
+                                <FrameLayout
+                                    android:layout_width="170dp"
+                                    android:layout_height="170dp">
+                                    <androidx.cardview.widget.CardView
+                                        android:layout_width="170dp"
+                                        android:layout_height="170dp"
+                                        app:cardCornerRadius="6dp"
+                                        app:cardBackgroundColor="@color/black">
+                                        <androidx.cardview.widget.CardView
+                                            android:layout_width="150dp"
+                                            android:layout_height="150dp"
+                                            app:cardCornerRadius="6dp"
+                                            app:cardBackgroundColor="@color/ô"
+                                            android:layout_margin="20dp">
+                                        </androidx.cardview.widget.CardView>
+                                        <androidx.cardview.widget.CardView
+                                            android:layout_width="150dp"
+                                            android:layout_height="150dp"
+                                            app:cardCornerRadius="6dp"
+                                            app:cardBackgroundColor="#807867"
+                                            android:layout_margin="10dp">
+                                        </androidx.cardview.widget.CardView>
+                                    </androidx.cardview.widget.CardView>
+                                    <androidx.cardview.widget.CardView
+                                        android:layout_width="150dp"
+                                        android:layout_height="150dp"
+                                        app:cardCornerRadius="6dp">
+                                        <ImageView
+                                            android:layout_width="150dp"
+                                            android:layout_height="150dp"
+                                            android:scaleType="fitCenter"
+                                            app:srcCompat="@drawable/n9"
+                                            tools:ignore="ContentDescription" />
+                                    </androidx.cardview.widget.CardView>
+                                </FrameLayout>
+
+                                <TextView
+                                    android:id="@+id/textView23"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:text="HipHop - Rap"
+                                    android:textColor="@color/white"
+                                    android:textSize="18dp"
+                                    android:textStyle="bold"
+                                    tools:ignore="TextSizeCheck" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:paddingBottom="10dp"
+                                android:paddingRight="10dp"
+                                android:paddingTop="10dp">
+
+                                <FrameLayout
+                                    android:layout_width="170dp"
+                                    android:layout_height="170dp">
+                                    <androidx.cardview.widget.CardView
+                                        android:layout_width="170dp"
+                                        android:layout_height="170dp"
+                                        app:cardCornerRadius="6dp"
+                                        app:cardBackgroundColor="@color/black">
+                                        <androidx.cardview.widget.CardView
+                                            android:layout_width="150dp"
+                                            android:layout_height="150dp"
+                                            app:cardCornerRadius="6dp"
+                                            app:cardBackgroundColor="@color/ô"
+                                            android:layout_margin="20dp">
+                                        </androidx.cardview.widget.CardView>
+                                        <androidx.cardview.widget.CardView
+                                            android:layout_width="150dp"
+                                            android:layout_height="150dp"
+                                            app:cardCornerRadius="6dp"
+                                            app:cardBackgroundColor="#A14A2E"
+                                            android:layout_margin="10dp">
+                                        </androidx.cardview.widget.CardView>
+                                    </androidx.cardview.widget.CardView>
+                                    <androidx.cardview.widget.CardView
+                                        android:layout_width="150dp"
+                                        android:layout_height="150dp"
+                                        app:cardCornerRadius="6dp">
+                                        <ImageView
+                                            android:layout_width="150dp"
+                                            android:layout_height="150dp"
+                                            android:scaleType="fitCenter"
+                                            app:srcCompat="@drawable/n10" />
+                                    </androidx.cardview.widget.CardView>
+                                </FrameLayout>
+
+                                <TextView
+                                    android:id="@+id/textView24"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Soul"
+                                    android:textColor="@color/white"
+                                    android:textSize="18dp"
+                                    android:gravity="center"
+                                    android:textStyle="bold"/>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:paddingBottom="10dp"
+                                android:paddingRight="10dp"
+                                android:paddingTop="10dp">
+
+                                <FrameLayout
+                                    android:layout_width="170dp"
+                                    android:layout_height="170dp">
+                                    <androidx.cardview.widget.CardView
+                                        android:layout_width="170dp"
+                                        android:layout_height="170dp"
+                                        app:cardCornerRadius="6dp"
+                                        app:cardBackgroundColor="@color/black">
+                                        <androidx.cardview.widget.CardView
+                                            android:layout_width="150dp"
+                                            android:layout_height="150dp"
+                                            app:cardCornerRadius="6dp"
+                                            app:cardBackgroundColor="@color/ô"
+                                            android:layout_margin="20dp">
+                                        </androidx.cardview.widget.CardView>
+                                        <androidx.cardview.widget.CardView
+                                            android:layout_width="150dp"
+                                            android:layout_height="150dp"
+                                            app:cardCornerRadius="6dp"
+                                            app:cardBackgroundColor="#464545"
+                                            android:layout_margin="10dp">
+                                        </androidx.cardview.widget.CardView>
+                                    </androidx.cardview.widget.CardView>
+                                    <androidx.cardview.widget.CardView
+                                        android:layout_width="150dp"
+                                        android:layout_height="150dp"
+                                        app:cardCornerRadius="6dp">
+                                        <ImageView
+                                            android:layout_width="150dp"
+                                            android:layout_height="150dp"
+                                            android:scaleType="fitCenter"
+                                            app:srcCompat="@drawable/n11"
+                                            tools:ignore="ContentDescription" />
+                                    </androidx.cardview.widget.CardView>
+                                </FrameLayout>
+
+                                <TextView
+                                    android:id="@+id/textView26"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Folk"
+                                    android:textSize="18dp"
+                                    android:textColor="@color/white"
+                                    android:gravity="center"
+                                    android:textStyle="bold"
+                                    tools:ignore="HardcodedText" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:paddingBottom="10dp"
+                                android:paddingRight="10dp"
+                                android:paddingTop="10dp">
+
+                                <FrameLayout
+                                    android:layout_width="170dp"
+                                    android:layout_height="170dp">
+                                    <androidx.cardview.widget.CardView
+                                        android:layout_width="170dp"
+                                        android:layout_height="170dp"
+                                        app:cardCornerRadius="6dp"
+                                        app:cardBackgroundColor="@color/black">
+                                        <androidx.cardview.widget.CardView
+                                            android:layout_width="150dp"
+                                            android:layout_height="150dp"
+                                            app:cardCornerRadius="6dp"
+                                            app:cardBackgroundColor="@color/ô"
+                                            android:layout_margin="20dp">
+                                        </androidx.cardview.widget.CardView>
+                                        <androidx.cardview.widget.CardView
+                                            android:layout_width="150dp"
+                                            android:layout_height="150dp"
+                                            app:cardCornerRadius="6dp"
+                                            app:cardBackgroundColor="#3D3B5C"
+                                            android:layout_margin="10dp">
+                                        </androidx.cardview.widget.CardView>
+                                    </androidx.cardview.widget.CardView>
+                                    <androidx.cardview.widget.CardView
+                                        android:layout_width="150dp"
+                                        android:layout_height="150dp"
+                                        app:cardCornerRadius="6dp">
+                                        <ImageView
+                                            android:layout_width="150dp"
+                                            android:layout_height="150dp"
+                                            android:scaleType="fitCenter"
+                                            app:srcCompat="@drawable/n12"
+                                            tools:ignore="ContentDescription" />
+                                    </androidx.cardview.widget.CardView>
+                                </FrameLayout>
+
+                                <TextView
+                                    android:id="@+id/textView27"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Rock, Mental, Punk"
+                                    android:textColor="@color/white"
+                                    android:textSize="18dp"
+                                    android:gravity="center"
+                                    android:textStyle="bold"
+                                    tools:ignore="HardcodedText" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:paddingBottom="10dp"
+                                android:paddingRight="10dp"
+                                android:paddingTop="10dp">
+
+                                <FrameLayout
+                                    android:layout_width="170dp"
+                                    android:layout_height="170dp">
+                                    <androidx.cardview.widget.CardView
+                                        android:layout_width="170dp"
+                                        android:layout_height="170dp"
+                                        app:cardCornerRadius="6dp"
+                                        app:cardBackgroundColor="@color/black">
+                                        <androidx.cardview.widget.CardView
+                                            android:layout_width="150dp"
+                                            android:layout_height="150dp"
+                                            app:cardCornerRadius="6dp"
+                                            app:cardBackgroundColor="@color/ô"
+                                            android:layout_margin="20dp">
+                                        </androidx.cardview.widget.CardView>
+                                        <androidx.cardview.widget.CardView
+                                            android:layout_width="150dp"
+                                            android:layout_height="150dp"
+                                            app:cardCornerRadius="6dp"
+                                            app:cardBackgroundColor="#54322B"
+                                            android:layout_margin="10dp">
+                                        </androidx.cardview.widget.CardView>
+                                    </androidx.cardview.widget.CardView>
+                                    <androidx.cardview.widget.CardView
+                                        android:layout_width="150dp"
+                                        android:layout_height="150dp"
+                                        app:cardCornerRadius="6dp">
+                                        <ImageView
+                                            android:layout_width="150dp"
+                                            android:layout_height="150dp"
+                                            android:scaleType="fitCenter"
+                                            app:srcCompat="@drawable/n13"
+                                            tools:ignore="ContentDescription" />
+                                    </androidx.cardview.widget.CardView>
+                                </FrameLayout>
+
+                                <TextView
+                                    android:id="@+id/textView28"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Country"
+                                    android:textColor="@color/white"
+                                    android:textSize="18dp"
+                                    android:gravity="center"
+                                    android:textStyle="bold"
+                                    tools:ignore="HardcodedText" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:paddingBottom="10dp"
+                                android:paddingRight="10dp"
+                                android:paddingTop="10dp">
+
+                                <FrameLayout
+                                    android:layout_width="170dp"
+                                    android:layout_height="170dp">
+                                    <androidx.cardview.widget.CardView
+                                        android:layout_width="170dp"
+                                        android:layout_height="170dp"
+                                        app:cardCornerRadius="6dp"
+                                        app:cardBackgroundColor="@color/black">
+                                        <androidx.cardview.widget.CardView
+                                            android:layout_width="150dp"
+                                            android:layout_height="150dp"
+                                            app:cardCornerRadius="6dp"
+                                            app:cardBackgroundColor="@color/ô"
+                                            android:layout_margin="20dp">
+                                        </androidx.cardview.widget.CardView>
+                                        <androidx.cardview.widget.CardView
+                                            android:layout_width="150dp"
+                                            android:layout_height="150dp"
+                                            app:cardCornerRadius="6dp"
+                                            app:cardBackgroundColor="#464545"
+                                            android:layout_margin="10dp">
+                                        </androidx.cardview.widget.CardView>
+                                    </androidx.cardview.widget.CardView>
+                                    <androidx.cardview.widget.CardView
+                                        android:layout_width="150dp"
+                                        android:layout_height="150dp"
+                                        app:cardCornerRadius="6dp">
+                                        <ImageView
+                                            android:layout_width="150dp"
+                                            android:layout_height="150dp"
+                                            android:scaleType="fitCenter"
+                                            app:srcCompat="@drawable/n14"
+                                            tools:ignore="ContentDescription" />
+                                    </androidx.cardview.widget.CardView>
+                                </FrameLayout>
+
+                                <TextView
+                                    android:id="@+id/textView29"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Pop"
+                                    android:textColor="@color/white"
+                                    android:textSize="18dp"
+                                    android:gravity="center"
+                                    android:textStyle="bold"/>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:paddingBottom="10dp"
+                                android:paddingRight="10dp"
+                                android:paddingTop="10dp">
+
+                                <FrameLayout
+                                    android:layout_width="170dp"
+                                    android:layout_height="170dp">
+                                    <androidx.cardview.widget.CardView
+                                        android:layout_width="170dp"
+                                        android:layout_height="170dp"
+                                        app:cardCornerRadius="6dp"
+                                        app:cardBackgroundColor="@color/black">
+                                        <androidx.cardview.widget.CardView
+                                            android:layout_width="150dp"
+                                            android:layout_height="150dp"
+                                            app:cardCornerRadius="6dp"
+                                            app:cardBackgroundColor="@color/ô"
+                                            android:layout_margin="20dp">
+                                        </androidx.cardview.widget.CardView>
+                                        <androidx.cardview.widget.CardView
+                                            android:layout_width="150dp"
+                                            android:layout_height="150dp"
+                                            app:cardCornerRadius="6dp"
+                                            app:cardBackgroundColor="#3D3D42"
+                                            android:layout_margin="10dp">
+                                        </androidx.cardview.widget.CardView>
+                                    </androidx.cardview.widget.CardView>
+                                    <androidx.cardview.widget.CardView
+                                        android:layout_width="150dp"
+                                        android:layout_height="150dp"
+                                        app:cardCornerRadius="6dp">
+                                        <ImageView
+                                            android:layout_width="150dp"
+                                            android:layout_height="150dp"
+                                            android:scaleType="fitCenter"
+                                            app:srcCompat="@drawable/n15" />
+                                    </androidx.cardview.widget.CardView>
+                                </FrameLayout>
+
+                                <TextView
+                                    android:id="@+id/textView30"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Techno"
+                                    android:textColor="@color/white"
+                                    android:textSize="18dp"
+                                    android:gravity="center"
+                                    android:textStyle="bold"/>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:paddingBottom="10dp"
+                                android:paddingRight="10dp"
+                                android:paddingTop="10dp">
+
+                                <FrameLayout
+                                    android:layout_width="170dp"
+                                    android:layout_height="170dp">
+                                    <androidx.cardview.widget.CardView
+                                        android:layout_width="170dp"
+                                        android:layout_height="170dp"
+                                        app:cardCornerRadius="6dp"
+                                        app:cardBackgroundColor="@color/black">
+                                        <androidx.cardview.widget.CardView
+                                            android:layout_width="150dp"
+                                            android:layout_height="150dp"
+                                            app:cardCornerRadius="6dp"
+                                            app:cardBackgroundColor="@color/ô"
+                                            android:layout_margin="20dp">
+                                        </androidx.cardview.widget.CardView>
+                                        <androidx.cardview.widget.CardView
+                                            android:layout_width="150dp"
+                                            android:layout_height="150dp"
+                                            app:cardCornerRadius="6dp"
+                                            app:cardBackgroundColor="#464545"
+                                            android:layout_margin="10dp">
+                                        </androidx.cardview.widget.CardView>
+                                    </androidx.cardview.widget.CardView>
+                                    <androidx.cardview.widget.CardView
+                                        android:layout_width="150dp"
+                                        android:layout_height="150dp"
+                                        app:cardCornerRadius="6dp">
+                                        <ImageView
+                                            android:layout_width="150dp"
+                                            android:layout_height="150dp"
+                                            android:scaleType="fitCenter"
+                                            app:srcCompat="@drawable/n16"
+                                            tools:ignore="ContentDescription" />
+                                    </androidx.cardview.widget.CardView>
+                                </FrameLayout>
+
+                                <TextView
+                                    android:id="@+id/textView32"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Jazz"
+                                    android:textColor="@color/white"
+                                    android:textSize="18dp"
+                                    android:gravity="center"
+                                    android:textStyle="bold"/>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:paddingBottom="10dp"
+                                android:paddingRight="10dp"
+                                android:paddingTop="10dp">
+
+                                <FrameLayout
+                                    android:layout_width="170dp"
+                                    android:layout_height="170dp">
+                                    <androidx.cardview.widget.CardView
+                                        android:layout_width="170dp"
+                                        android:layout_height="170dp"
+                                        app:cardCornerRadius="6dp"
+                                        app:cardBackgroundColor="@color/black">
+                                        <androidx.cardview.widget.CardView
+                                            android:layout_width="150dp"
+                                            android:layout_height="150dp"
+                                            app:cardCornerRadius="6dp"
+                                            app:cardBackgroundColor="@color/ô"
+                                            android:layout_margin="20dp">
+                                        </androidx.cardview.widget.CardView>
+                                        <androidx.cardview.widget.CardView
+                                            android:layout_width="150dp"
+                                            android:layout_height="150dp"
+                                            app:cardCornerRadius="6dp"
+                                            app:cardBackgroundColor="#33413E"
+                                            android:layout_margin="10dp">
+                                        </androidx.cardview.widget.CardView>
+                                    </androidx.cardview.widget.CardView>
+                                    <androidx.cardview.widget.CardView
+                                        android:layout_width="150dp"
+                                        android:layout_height="150dp"
+                                        app:cardCornerRadius="6dp">
+                                        <ImageView
+                                            android:layout_width="150dp"
+                                            android:layout_height="150dp"
+                                            android:scaleType="fitCenter"
+                                            app:srcCompat="@drawable/n17" />
+                                    </androidx.cardview.widget.CardView>
+                                </FrameLayout>
+
+                                <TextView
+                                    android:id="@+id/textView33"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Latin"
+                                    android:textColor="@color/white"
+                                    android:textSize="18dp"
+                                    android:gravity="center"
+                                    android:textStyle="bold"
+                                    tools:ignore="SpUsage" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:paddingBottom="10dp"
+                                android:paddingRight="10dp"
+                                android:paddingTop="10dp">
+
+                                <FrameLayout
+                                    android:layout_width="170dp"
+                                    android:layout_height="170dp">
+                                    <androidx.cardview.widget.CardView
+                                        android:layout_width="170dp"
+                                        android:layout_height="170dp"
+                                        app:cardCornerRadius="6dp"
+                                        app:cardBackgroundColor="@color/black">
+                                        <androidx.cardview.widget.CardView
+                                            android:layout_width="150dp"
+                                            android:layout_height="150dp"
+                                            app:cardCornerRadius="6dp"
+                                            app:cardBackgroundColor="@color/ô"
+                                            android:layout_margin="20dp">
+                                        </androidx.cardview.widget.CardView>
+                                        <androidx.cardview.widget.CardView
+                                            android:layout_width="150dp"
+                                            android:layout_height="150dp"
+                                            app:cardCornerRadius="6dp"
+                                            app:cardBackgroundColor="#444941"
+                                            android:layout_margin="10dp">
+                                        </androidx.cardview.widget.CardView>
+                                    </androidx.cardview.widget.CardView>
+                                    <androidx.cardview.widget.CardView
+                                        android:layout_width="150dp"
+                                        android:layout_height="150dp"
+                                        app:cardCornerRadius="6dp">
+                                        <ImageView
+                                            android:layout_width="150dp"
+                                            android:layout_height="150dp"
+                                            android:scaleType="fitCenter"
+                                            app:srcCompat="@drawable/n18" />
+                                    </androidx.cardview.widget.CardView>
+                                </FrameLayout>
+
+                                <TextView
+                                    android:id="@+id/textView34"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Reggae"
+                                    android:textColor="@color/white"
+                                    android:textSize="18dp"
+                                    android:gravity="center"
+                                    android:textStyle="bold"/>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:paddingBottom="10dp"
+                                android:paddingRight="10dp"
+                                android:paddingTop="10dp">
+
+                                <FrameLayout
+                                    android:layout_width="170dp"
+                                    android:layout_height="170dp">
+                                    <androidx.cardview.widget.CardView
+                                        android:layout_width="170dp"
+                                        android:layout_height="170dp"
+                                        app:cardCornerRadius="6dp"
+                                        app:cardBackgroundColor="@color/black">
+                                        <androidx.cardview.widget.CardView
+                                            android:layout_width="150dp"
+                                            android:layout_height="150dp"
+                                            app:cardCornerRadius="6dp"
+                                            app:cardBackgroundColor="@color/ô"
+                                            android:layout_margin="20dp">
+                                        </androidx.cardview.widget.CardView>
+                                        <androidx.cardview.widget.CardView
+                                            android:layout_width="150dp"
+                                            android:layout_height="150dp"
+                                            app:cardCornerRadius="6dp"
+                                            app:cardBackgroundColor="#41325D"
+                                            android:layout_margin="10dp">
+                                        </androidx.cardview.widget.CardView>
+                                    </androidx.cardview.widget.CardView>
+                                    <androidx.cardview.widget.CardView
+                                        android:layout_width="150dp"
+                                        android:layout_height="150dp"
+                                        app:cardCornerRadius="6dp">
+                                        <ImageView
+                                            android:layout_width="150dp"
+                                            android:layout_height="150dp"
+                                            android:scaleType="fitCenter"
+                                            app:srcCompat="@drawable/n19" />
+                                    </androidx.cardview.widget.CardView>
+                                </FrameLayout>
+
+                                <TextView
+                                    android:id="@+id/textView35"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="House"
+                                    android:textColor="@color/white"
+                                    android:textSize="18dp"
+                                    android:gravity="center"
+                                    android:textStyle="bold"/>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:paddingBottom="10dp"
+                                android:paddingRight="10dp"
+                                android:paddingTop="10dp">
+
+                                <FrameLayout
+                                    android:layout_width="170dp"
+                                    android:layout_height="170dp">
+                                    <androidx.cardview.widget.CardView
+                                        android:layout_width="170dp"
+                                        android:layout_height="170dp"
+                                        app:cardCornerRadius="6dp"
+                                        app:cardBackgroundColor="@color/black">
+                                        <androidx.cardview.widget.CardView
+                                            android:layout_width="150dp"
+                                            android:layout_height="150dp"
+                                            app:cardCornerRadius="6dp"
+                                            app:cardBackgroundColor="@color/ô"
+                                            android:layout_margin="20dp">
+                                        </androidx.cardview.widget.CardView>
+                                        <androidx.cardview.widget.CardView
+                                            android:layout_width="150dp"
+                                            android:layout_height="150dp"
+                                            app:cardCornerRadius="6dp"
+                                            app:cardBackgroundColor="#47151A"
+                                            android:layout_margin="10dp">
+                                        </androidx.cardview.widget.CardView>
+                                    </androidx.cardview.widget.CardView>
+                                    <androidx.cardview.widget.CardView
+                                        android:layout_width="150dp"
+                                        android:layout_height="150dp"
+                                        app:cardCornerRadius="6dp">
+                                        <ImageView
+                                            android:layout_width="150dp"
+                                            android:layout_height="150dp"
+                                            android:scaleType="fitCenter"
+                                            app:srcCompat="@drawable/n20" />
+                                    </androidx.cardview.widget.CardView>
+                                </FrameLayout>
+                                <TextView
+                                    android:id="@+id/textView36"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Electronic"
+                                    android:textColor="@color/white"
+                                    android:textSize="18dp"
+                                    android:gravity="center"
+                                    android:textStyle="bold"
+                                    tools:ignore="HardcodedText" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:paddingBottom="10dp"
+                                android:paddingRight="10dp"
+                                android:paddingTop="10dp">
+
+                                <FrameLayout
+                                    android:layout_width="170dp"
+                                    android:layout_height="170dp">
+                                    <androidx.cardview.widget.CardView
+                                        android:layout_width="170dp"
+                                        android:layout_height="170dp"
+                                        app:cardCornerRadius="6dp"
+                                        app:cardBackgroundColor="@color/black">
+                                        <androidx.cardview.widget.CardView
+                                            android:layout_width="150dp"
+                                            android:layout_height="150dp"
+                                            app:cardCornerRadius="6dp"
+                                            app:cardBackgroundColor="@color/ô"
+                                            android:layout_margin="20dp">
+                                        </androidx.cardview.widget.CardView>
+                                        <androidx.cardview.widget.CardView
+                                            android:layout_width="150dp"
+                                            android:layout_height="150dp"
+                                            app:cardCornerRadius="6dp"
+                                            app:cardBackgroundColor="#22251C"
+                                            android:layout_margin="10dp">
+                                        </androidx.cardview.widget.CardView>
+                                    </androidx.cardview.widget.CardView>
+                                    <androidx.cardview.widget.CardView
+                                        android:layout_width="150dp"
+                                        android:layout_height="150dp"
+                                        app:cardCornerRadius="6dp">
+                                        <ImageView
+                                            android:layout_width="150dp"
+                                            android:layout_height="150dp"
+                                            android:scaleType="fitCenter"
+                                            app:srcCompat="@drawable/n21" />
+                                    </androidx.cardview.widget.CardView>
+                                </FrameLayout>
+
+                                <TextView
+                                    android:id="@+id/textView37"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="SoundCloud"
+                                    android:textColor="@color/white"
+                                    android:textSize="18dp"
+                                    android:gravity="center"
+                                    android:textStyle="bold"
+                                    tools:ignore="HardcodedText" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </HorizontalScrollView>
+                </ScrollView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nghệ sĩ phổ biến"
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+                    android:textColor="@color/white"
+                    android:padding="10dp"/>
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        tools:ignore="ScrollViewSize">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal" >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:padding="10dp">
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="170dp"
+                                    android:layout_height="170dp"
+                                    app:cardCornerRadius="100dp">
+                                    <ImageView
+                                        android:id="@+id/imageView23"
+                                        android:layout_width="170dp"
+                                        android:layout_height="170dp"
+                                        android:scaleType="fitCenter"
+                                        app:srcCompat="@drawable/n22" />
+                                </androidx.cardview.widget.CardView>
+
+                                <TextView
+                                    android:id="@+id/textView38"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Sơn Tùng MTP"
+                                    android:textColor="@color/white"
+                                    android:textSize="18dp"
+                                    android:gravity="center"
+                                    android:textStyle="bold"
+                                    tools:ignore="HardcodedText" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:paddingBottom="10dp"
+                                android:paddingRight="10dp"
+                                android:paddingTop="10dp"
+                                tools:ignore="RtlSymmetry">
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="170dp"
+                                    android:layout_height="170dp"
+                                    app:cardCornerRadius="100dp">
+                                    <ImageView
+                                        android:id="@+id/imageView24"
+                                        android:layout_width="170dp"
+                                        android:layout_height="170dp"
+                                        android:scaleType="fitCenter"
+                                        app:srcCompat="@drawable/n23" />
+                                </androidx.cardview.widget.CardView>
+
+                                <TextView
+                                    android:id="@+id/textView40"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Vũ."
+                                    android:textColor="@color/white"
+                                    android:textSize="18dp"
+                                    android:gravity="center"
+                                    android:textStyle="bold"
+                                    tools:ignore="HardcodedText" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:paddingBottom="10dp"
+                                android:paddingRight="10dp"
+                                android:paddingTop="10dp">
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="170dp"
+                                    android:layout_height="170dp"
+                                    app:cardCornerRadius="100dp">
+                                    <ImageView
+                                        android:id="@+id/imageView25"
+                                        android:layout_width="170dp"
+                                        android:layout_height="170dp"
+                                        android:scaleType="fitCenter"
+                                        app:srcCompat="@drawable/n24" />
+                                </androidx.cardview.widget.CardView>
+
+                                <TextView
+                                    android:id="@+id/textView41"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="HIEUTHUHAI"
+                                    android:textColor="@color/white"
+                                    android:textSize="18dp"
+                                    android:gravity="center"
+                                    android:textStyle="bold"
+                                    tools:ignore="HardcodedText" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:paddingBottom="10dp"
+                                android:paddingRight="10dp"
+                                android:paddingTop="10dp">
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="170dp"
+                                    android:layout_height="170dp"
+                                    app:cardCornerRadius="100dp">
+                                    <ImageView
+                                        android:id="@+id/imageView26"
+                                        android:layout_width="170dp"
+                                        android:layout_height="170dp"
+                                        android:scaleType="fitCenter"
+                                        app:srcCompat="@drawable/n25" />
+                                </androidx.cardview.widget.CardView>
+
+                                <TextView
+                                    android:id="@+id/textView42"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="W/N"
+                                    android:textColor="@color/white"
+                                    android:textSize="18dp"
+                                    android:gravity="center"
+                                    android:textStyle="bold"
+                                    tools:ignore="HardcodedText" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:paddingBottom="10dp"
+                                android:paddingRight="10dp"
+                                android:paddingTop="10dp">
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="170dp"
+                                    android:layout_height="170dp"
+                                    app:cardCornerRadius="100dp">
+                                    <ImageView
+                                        android:id="@+id/imageView27"
+                                        android:layout_width="170dp"
+                                        android:layout_height="170dp"
+                                        android:scaleType="fitCenter"
+                                        app:srcCompat="@drawable/n26" />
+                                </androidx.cardview.widget.CardView>
+
+                                <TextView
+                                    android:id="@+id/textView43"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="tlinh"
+                                    android:textColor="@color/white"
+                                    android:textSize="18dp"
+                                    android:gravity="center"
+                                    android:textStyle="bold"
+                                    tools:ignore="HardcodedText" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:paddingBottom="10dp"
+                                android:paddingRight="10dp"
+                                android:paddingTop="10dp">
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="170dp"
+                                    android:layout_height="170dp"
+                                    app:cardCornerRadius="100dp">
+                                    <ImageView
+                                        android:id="@+id/imageView28"
+                                        android:layout_width="170dp"
+                                        android:layout_height="170dp"
+                                        android:scaleType="fitCenter"
+                                        app:srcCompat="@drawable/n27" />
+                                </androidx.cardview.widget.CardView>
+
+                                <TextView
+                                    android:id="@+id/textView44"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Vũ Cát Tường"
+                                    android:textColor="@color/white"
+                                    android:textSize="18dp"
+                                    android:gravity="center"
+                                    android:textStyle="bold"/>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:paddingBottom="10dp"
+                                android:paddingRight="10dp"
+                                android:paddingTop="10dp">
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="170dp"
+                                    android:layout_height="170dp"
+                                    app:cardCornerRadius="100dp">
+                                    <ImageView
+                                        android:id="@+id/imageView29"
+                                        android:layout_width="170dp"
+                                        android:layout_height="170dp"
+                                        android:scaleType="fitCenter"
+                                        app:srcCompat="@drawable/n28" />
+                                </androidx.cardview.widget.CardView>
+
+                                <TextView
+                                    android:id="@+id/textView45"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Wren Evans"
+                                    android:textColor="@color/white"
+                                    android:textSize="18dp"
+                                    android:gravity="center"
+                                    android:textStyle="bold"/>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:paddingBottom="10dp"
+                                android:paddingRight="10dp"
+                                android:paddingTop="10dp">
+                                \
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="170dp"
+                                    android:layout_height="170dp"
+                                    app:cardCornerRadius="100dp">
+                                    <ImageView
+                                        android:id="@+id/imageView30"
+                                        android:layout_width="170dp"
+                                        android:layout_height="170dp"
+                                        android:scaleType="fitCenter"
+                                        app:srcCompat="@drawable/n29" />
+                                </androidx.cardview.widget.CardView>
+
+                                <TextView
+                                    android:id="@+id/textView46"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="RPT MCK"
+                                    android:textColor="@color/white"
+                                    android:textSize="18dp"
+                                    android:gravity="center"
+                                    android:textStyle="bold"/>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:paddingBottom="10dp"
+                                android:paddingRight="10dp"
+                                android:paddingTop="10dp">
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="170dp"
+                                    android:layout_height="170dp"
+                                    app:cardCornerRadius="100dp">
+                                    <ImageView
+                                        android:id="@+id/imageView31"
+                                        android:layout_width="170dp"
+                                        android:layout_height="170dp"
+                                        android:scaleType="fitCenter"
+                                        app:srcCompat="@drawable/n30" />
+                                </androidx.cardview.widget.CardView>
+
+                                <TextView
+                                    android:id="@+id/textView47"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="GREY D"
+                                    android:textColor="@color/white"
+                                    android:textSize="18dp"
+                                    android:gravity="center"
+                                    android:textStyle="bold"
+                                    tools:ignore="HardcodedText" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:paddingBottom="10dp"
+                                android:paddingRight="10dp"
+                                android:paddingTop="10dp">
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="170dp"
+                                    android:layout_height="170dp"
+                                    app:cardCornerRadius="100dp">
+                                    <ImageView
+                                        android:id="@+id/imageView32"
+                                        android:layout_width="170dp"
+                                        android:layout_height="170dp"
+                                        android:scaleType="fitCenter"
+                                        app:srcCompat="@drawable/n31" />
+                                </androidx.cardview.widget.CardView>
+
+                                <TextView
+                                    android:id="@+id/textView48"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Da LAB"
+                                    android:textColor="@color/white"
+                                    android:textSize="18dp"
+                                    android:gravity="center"
+                                    android:textStyle="bold"
+                                    tools:ignore="HardcodedText" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                    </HorizontalScrollView>
+                </ScrollView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Album phổ biến"
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+                    android:textColor="@color/white"
+                    android:padding="10dp"/>
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        tools:ignore="ScrollViewSize">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal" >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:padding="10dp">
+
+                                <FrameLayout
+                                    android:layout_width="170dp"
+                                    android:layout_height="170dp">
+                                    <androidx.cardview.widget.CardView
+                                        android:layout_width="170dp"
+                                        android:layout_height="170dp"
+                                        app:cardCornerRadius="6dp"
+                                        app:cardBackgroundColor="@color/black">
+                                        <androidx.cardview.widget.CardView
+                                            android:layout_width="150dp"
+                                            android:layout_height="150dp"
+                                            app:cardCornerRadius="6dp"
+                                            app:cardBackgroundColor="@color/ô"
+                                            android:layout_margin="20dp">
+                                        </androidx.cardview.widget.CardView>
+                                        <androidx.cardview.widget.CardView
+                                            android:layout_width="150dp"
+                                            android:layout_height="150dp"
+                                            app:cardCornerRadius="6dp"
+                                            app:cardBackgroundColor="#5B4339"
+                                            android:layout_margin="10dp">
+                                        </androidx.cardview.widget.CardView>
+                                    </androidx.cardview.widget.CardView>
+                                    <androidx.cardview.widget.CardView
+                                        android:layout_width="150dp"
+                                        android:layout_height="150dp"
+                                        app:cardCornerRadius="6dp">
+                                        <ImageView
+                                            android:layout_width="150dp"
+                                            android:layout_height="150dp"
+                                            android:scaleType="fitCenter"
+                                            app:srcCompat="@drawable/n5" />
+                                    </androidx.cardview.widget.CardView>
+                                </FrameLayout>
+
+                                <TextView
+                                    android:id="@+id/textView49"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Right Place"
+                                    android:textColor="@color/white"
+                                    android:textSize="18dp"
+                                    android:textStyle="bold"
+                                    tools:ignore="HardcodedText" />
+
+                                <TextView
+                                    android:id="@+id/textView3"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Album: RM"
+                                    android:textSize="14dp"
+                                    android:textColor="#828080"
+                                    android:textStyle="bold"/>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:paddingBottom="10dp"
+                                android:paddingRight="10dp"
+                                android:paddingTop="10dp">
+
+                                <FrameLayout
+                                    android:layout_width="170dp"
+                                    android:layout_height="170dp">
+                                    <androidx.cardview.widget.CardView
+                                        android:layout_width="170dp"
+                                        android:layout_height="170dp"
+                                        app:cardCornerRadius="6dp"
+                                        app:cardBackgroundColor="@color/black">
+                                        <androidx.cardview.widget.CardView
+                                            android:layout_width="150dp"
+                                            android:layout_height="150dp"
+                                            app:cardCornerRadius="6dp"
+                                            app:cardBackgroundColor="@color/ô"
+                                            android:layout_margin="20dp">
+                                        </androidx.cardview.widget.CardView>
+                                        <androidx.cardview.widget.CardView
+                                            android:layout_width="150dp"
+                                            android:layout_height="150dp"
+                                            app:cardCornerRadius="6dp"
+                                            app:cardBackgroundColor="#375668"
+                                            android:layout_margin="10dp">
+                                        </androidx.cardview.widget.CardView>
+                                    </androidx.cardview.widget.CardView>
+                                    <androidx.cardview.widget.CardView
+                                        android:layout_width="150dp"
+                                        android:layout_height="150dp"
+                                        app:cardCornerRadius="6dp">
+                                        <ImageView
+                                            android:layout_width="150dp"
+                                            android:layout_height="150dp"
+                                            android:scaleType="fitCenter"
+                                            app:srcCompat="@drawable/n32" />
+                                    </androidx.cardview.widget.CardView>
+                                </FrameLayout>
+
+                                <TextView
+                                    android:id="@+id/textView50"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Đánh Đổi"
+                                    android:textColor="@color/white"
+                                    android:textSize="18dp"
+                                    android:textStyle="bold"
+                                    tools:ignore="HardcodedText" />
+
+                                <TextView
+                                    android:id="@+id/textView4"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Album: Obito"
+                                    android:textSize="14dp"
+                                    android:textColor="#828080"
+                                    android:textStyle="bold"
+                                    tools:ignore="HardcodedText" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:paddingBottom="10dp"
+                                android:paddingRight="10dp"
+                                android:paddingTop="10dp">
+
+                                <FrameLayout
+                                    android:layout_width="170dp"
+                                    android:layout_height="170dp">
+                                    <androidx.cardview.widget.CardView
+                                        android:layout_width="170dp"
+                                        android:layout_height="170dp"
+                                        app:cardCornerRadius="6dp"
+                                        app:cardBackgroundColor="@color/black">
+                                        <androidx.cardview.widget.CardView
+                                            android:layout_width="150dp"
+                                            android:layout_height="150dp"
+                                            app:cardCornerRadius="6dp"
+                                            app:cardBackgroundColor="@color/ô"
+                                            android:layout_margin="20dp">
+                                        </androidx.cardview.widget.CardView>
+                                        <androidx.cardview.widget.CardView
+                                            android:layout_width="150dp"
+                                            android:layout_height="150dp"
+                                            app:cardCornerRadius="6dp"
+                                            app:cardBackgroundColor="#433E39"
+                                            android:layout_margin="10dp">
+                                        </androidx.cardview.widget.CardView>
+                                    </androidx.cardview.widget.CardView>
+                                    <androidx.cardview.widget.CardView
+                                        android:layout_width="150dp"
+                                        android:layout_height="150dp"
+                                        app:cardCornerRadius="6dp">
+                                        <ImageView
+                                            android:layout_width="150dp"
+                                            android:layout_height="150dp"
+                                            android:scaleType="fitCenter"
+                                            app:srcCompat="@drawable/n33" />
+                                    </androidx.cardview.widget.CardView>
+                                </FrameLayout>
+
+                                <TextView
+                                    android:id="@+id/textView51"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="THE TORTURED "
+                                    android:textColor="@color/white"
+                                    android:textSize="18dp"
+                                    android:textStyle="bold"
+                                    tools:ignore="HardcodedText" />
+
+                                <TextView
+                                    android:id="@+id/textView25"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Album: Taylor Swift"
+                                    android:textSize="14dp"
+                                    android:textColor="#828080"
+                                    android:textStyle="bold"
+                                    tools:ignore="HardcodedText" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:paddingBottom="10dp"
+                                android:paddingRight="10dp"
+                                android:paddingTop="10dp">
+                                <FrameLayout
+                                    android:layout_width="170dp"
+                                    android:layout_height="170dp">
+                                    <androidx.cardview.widget.CardView
+                                        android:layout_width="170dp"
+                                        android:layout_height="170dp"
+                                        app:cardCornerRadius="6dp"
+                                        app:cardBackgroundColor="@color/black">
+                                        <androidx.cardview.widget.CardView
+                                            android:layout_width="150dp"
+                                            android:layout_height="150dp"
+                                            app:cardCornerRadius="6dp"
+                                            app:cardBackgroundColor="@color/ô"
+                                            android:layout_margin="20dp">
+                                        </androidx.cardview.widget.CardView>
+                                        <androidx.cardview.widget.CardView
+                                            android:layout_width="150dp"
+                                            android:layout_height="150dp"
+                                            app:cardCornerRadius="6dp"
+                                            app:cardBackgroundColor="#421112"
+                                            android:layout_margin="10dp">
+                                        </androidx.cardview.widget.CardView>
+                                    </androidx.cardview.widget.CardView>
+                                    <androidx.cardview.widget.CardView
+                                        android:layout_width="150dp"
+                                        android:layout_height="150dp"
+                                        app:cardCornerRadius="6dp">
+                                        <ImageView
+                                            android:layout_width="150dp"
+                                            android:layout_height="150dp"
+                                            android:scaleType="fitCenter"
+                                            app:srcCompat="@drawable/n34" />
+                                    </androidx.cardview.widget.CardView>
+                                </FrameLayout>
+
+                                <TextView
+                                    android:id="@+id/textView52"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Ai rồi cũng phải"
+                                    android:textColor="@color/white"
+                                    android:textSize="18dp"
+                                    android:textStyle="bold"
+                                    tools:ignore="HardcodedText" />
+
+                                <TextView
+                                    android:id="@+id/textView7"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Album: HIEUTHUHAI"
+                                    android:textSize="14dp"
+                                    android:textColor="#828080"
+                                    android:textStyle="bold"
+                                    tools:ignore="HardcodedText" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:paddingBottom="10dp"
+                                android:paddingRight="10dp"
+                                android:paddingTop="10dp">
+
+                                <FrameLayout
+                                    android:layout_width="170dp"
+                                    android:layout_height="170dp">
+                                    <androidx.cardview.widget.CardView
+                                        android:layout_width="170dp"
+                                        android:layout_height="170dp"
+                                        app:cardCornerRadius="6dp"
+                                        app:cardBackgroundColor="@color/black">
+                                        <androidx.cardview.widget.CardView
+                                            android:layout_width="150dp"
+                                            android:layout_height="150dp"
+                                            app:cardCornerRadius="6dp"
+                                            app:cardBackgroundColor="@color/ô"
+                                            android:layout_margin="20dp">
+                                        </androidx.cardview.widget.CardView>
+                                        <androidx.cardview.widget.CardView
+                                            android:layout_width="150dp"
+                                            android:layout_height="150dp"
+                                            app:cardCornerRadius="6dp"
+                                            app:cardBackgroundColor="#453127"
+                                            android:layout_margin="10dp">
+                                        </androidx.cardview.widget.CardView>
+                                    </androidx.cardview.widget.CardView>
+                                    <androidx.cardview.widget.CardView
+                                        android:layout_width="150dp"
+                                        android:layout_height="150dp"
+                                        app:cardCornerRadius="6dp">
+                                        <ImageView
+                                            android:layout_width="150dp"
+                                            android:layout_height="150dp"
+                                            android:scaleType="fitCenter"
+                                            app:srcCompat="@drawable/n35" />
+                                    </androidx.cardview.widget.CardView>
+                                </FrameLayout>
+
+                                <TextView
+                                    android:id="@+id/textView31"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="LOI CHOI"
+                                    android:textColor="@color/white"
+                                    android:textSize="18dp"
+                                    android:textStyle="bold"/>
+
+                                <TextView
+                                    android:id="@+id/textView53"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Album: Wren Evans"
+                                    android:textSize="14dp"
+                                    android:textColor="#828080"
+                                    android:textStyle="bold"
+                                    tools:ignore="HardcodedText" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:paddingBottom="10dp"
+                                android:paddingRight="10dp"
+                                android:paddingTop="10dp">
+
+                                <FrameLayout
+                                    android:layout_width="170dp"
+                                    android:layout_height="170dp">
+                                    <androidx.cardview.widget.CardView
+                                        android:layout_width="170dp"
+                                        android:layout_height="170dp"
+                                        app:cardCornerRadius="6dp"
+                                        app:cardBackgroundColor="@color/black">
+                                        <androidx.cardview.widget.CardView
+                                            android:layout_width="150dp"
+                                            android:layout_height="150dp"
+                                            app:cardCornerRadius="6dp"
+                                            app:cardBackgroundColor="@color/ô"
+                                            android:layout_margin="20dp">
+                                        </androidx.cardview.widget.CardView>
+                                        <androidx.cardview.widget.CardView
+                                            android:layout_width="150dp"
+                                            android:layout_height="150dp"
+                                            app:cardCornerRadius="6dp"
+                                            app:cardBackgroundColor="#300808"
+                                            android:layout_margin="10dp">
+                                        </androidx.cardview.widget.CardView>
+                                    </androidx.cardview.widget.CardView>
+                                    <androidx.cardview.widget.CardView
+                                        android:layout_width="150dp"
+                                        android:layout_height="150dp"
+                                        app:cardCornerRadius="6dp">
+                                        <ImageView
+                                            android:layout_width="150dp"
+                                            android:layout_height="150dp"
+                                            android:scaleType="fitCenter"
+                                            app:srcCompat="@drawable/n36" />
+                                    </androidx.cardview.widget.CardView>
+                                </FrameLayout>
+
+                                <TextView
+                                    android:id="@+id/textView39"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="99%"
+                                    android:textColor="@color/white"
+                                    android:textSize="18dp"
+                                    android:textStyle="bold"
+                                    tools:ignore="HardcodedText" />
+
+                                <TextView
+                                    android:id="@+id/textView54"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Album: RPT MCK"
+                                    android:textSize="14dp"
+                                    android:textColor="#828080"
+                                    android:textStyle="bold"
+                                    tools:ignore="HardcodedText" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:paddingBottom="10dp"
+                                android:paddingRight="10dp"
+                                android:paddingTop="10dp">
+
+                                <FrameLayout
+                                    android:layout_width="170dp"
+                                    android:layout_height="170dp">
+                                    <androidx.cardview.widget.CardView
+                                        android:layout_width="170dp"
+                                        android:layout_height="170dp"
+                                        app:cardCornerRadius="6dp"
+                                        app:cardBackgroundColor="@color/black">
+                                        <androidx.cardview.widget.CardView
+                                            android:layout_width="150dp"
+                                            android:layout_height="150dp"
+                                            app:cardCornerRadius="6dp"
+                                            app:cardBackgroundColor="@color/ô"
+                                            android:layout_margin="20dp">
+                                        </androidx.cardview.widget.CardView>
+                                        <androidx.cardview.widget.CardView
+                                            android:layout_width="150dp"
+                                            android:layout_height="150dp"
+                                            app:cardCornerRadius="6dp"
+                                            app:cardBackgroundColor="#BD7B93"
+                                            android:layout_margin="10dp">
+                                        </androidx.cardview.widget.CardView>
+                                    </androidx.cardview.widget.CardView>
+                                    <androidx.cardview.widget.CardView
+                                        android:layout_width="150dp"
+                                        android:layout_height="150dp"
+                                        app:cardCornerRadius="6dp">
+                                        <ImageView
+                                            android:layout_width="150dp"
+                                            android:layout_height="150dp"
+                                            android:scaleType="fitCenter"
+                                            app:srcCompat="@drawable/n37" />
+                                    </androidx.cardview.widget.CardView>
+                                </FrameLayout>
+
+                                <TextView
+                                    android:id="@+id/textView74"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="ái"
+                                    android:textColor="@color/white"
+                                    android:textSize="18dp"
+                                    android:textStyle="bold"
+                                    tools:ignore="HardcodedText" />
+
+                                <TextView
+                                    android:id="@+id/textView55"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Album: tlinh"
+                                    android:textSize="14dp"
+                                    android:textColor="#828080"
+                                    android:textStyle="bold"
+                                    tools:ignore="HardcodedText" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </HorizontalScrollView>
+                </ScrollView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Party"
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+                    android:textColor="@color/white"
+                    android:padding="10dp"/>
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        tools:ignore="ScrollViewSize">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal" >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:padding="10dp">
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="170dp"
+                                    android:layout_height="170dp"
+                                    app:cardCornerRadius="10dp">
+
+                                    <ImageView
+                                        android:layout_width="170dp"
+                                        android:layout_height="170dp"
+                                        android:scaleType="fitCenter"
+                                        app:srcCompat="@drawable/n38" />
+                                </androidx.cardview.widget.CardView>
+
+                                <TextView
+                                    android:id="@+id/textView59"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Poppin"
+                                    android:textColor="@color/white"
+                                    android:textSize="18dp"
+                                    android:textStyle="bold"
+                                    tools:ignore="HardcodedText" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Discovery Playlist"
+                                    android:textColor="#828080"
+                                    android:textSize="14dp"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:paddingTop="10dp"
+                                android:paddingRight="10dp"
+                                android:paddingBottom="10dp">
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="170dp"
+                                    android:layout_height="170dp"
+                                    app:cardCornerRadius="10dp">
+                                    <ImageView
+                                        android:layout_width="170dp"
+                                        android:layout_height="170dp"
+                                        android:scaleType="fitCenter"
+                                        app:srcCompat="@drawable/n39" />
+                                </androidx.cardview.widget.CardView>
+
+                                <TextView
+                                    android:id="@+id/textView60"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Trap Party"
+                                    android:textColor="@color/white"
+                                    android:textSize="18dp"
+                                    android:textStyle="bold"
+                                    tools:ignore="HardcodedText" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Discovery Playlist"
+                                    android:textSize="14dp"
+                                    android:textColor="#828080"
+                                    android:textStyle="bold"/>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:paddingTop="10dp"
+                                android:paddingRight="10dp"
+                                android:paddingBottom="10dp">
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="170dp"
+                                    android:layout_height="170dp"
+                                    app:cardCornerRadius="10dp">
+                                    <ImageView
+                                        android:layout_width="170dp"
+                                        android:layout_height="170dp"
+                                        android:scaleType="fitCenter"
+                                        app:srcCompat="@drawable/n40" />
+                                </androidx.cardview.widget.CardView>
+
+                                <TextView
+                                    android:id="@+id/textView61"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="All Smiles "
+                                    android:textColor="@color/white"
+                                    android:textSize="18dp"
+                                    android:textStyle="bold"
+                                    tools:ignore="HardcodedText" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Discovery Playlist"
+                                    android:textSize="14dp"
+                                    android:textColor="#828080"
+                                    android:textStyle="bold"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:paddingTop="10dp"
+                                android:paddingRight="10dp"
+                                android:paddingBottom="10dp">
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="170dp"
+                                    android:layout_height="170dp"
+                                    app:cardCornerRadius="10dp">
+                                    <ImageView
+                                        android:layout_width="170dp"
+                                        android:layout_height="170dp"
+                                        android:scaleType="fitCenter"
+                                        app:srcCompat="@drawable/n41" />
+                                </androidx.cardview.widget.CardView>
+
+                                <TextView
+                                    android:id="@+id/textView62"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Happy Hour House"
+                                    android:textColor="@color/white"
+                                    android:textSize="18dp"
+                                    android:textStyle="bold"/>
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Discovery Playlist"
+                                    android:textSize="14dp"
+                                    android:textColor="#828080"
+                                    android:textStyle="bold"/>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:paddingTop="10dp"
+                                android:paddingRight="10dp"
+                                android:paddingBottom="10dp">
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="170dp"
+                                    android:layout_height="170dp"
+                                    app:cardCornerRadius="10dp">
+                                    <ImageView
+                                        android:layout_width="170dp"
+                                        android:layout_height="170dp"
+                                        android:scaleType="fitCenter"
+                                        app:srcCompat="@drawable/n42" />
+                                </androidx.cardview.widget.CardView>
+
+                                <TextView
+                                    android:id="@+id/textView63"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Electronic Breaks"
+                                    android:textColor="@color/white"
+                                    android:textSize="18dp"
+                                    android:textStyle="bold"/>
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Discovery Playlist"
+                                    android:textSize="14dp"
+                                    android:textColor="#828080"
+                                    android:textStyle="bold"/>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:paddingTop="10dp"
+                                android:paddingRight="10dp"
+                                android:paddingBottom="10dp">
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="170dp"
+                                    android:layout_height="170dp"
+                                    app:cardCornerRadius="10dp">
+                                    <ImageView
+                                        android:layout_width="170dp"
+                                        android:layout_height="170dp"
+                                        android:scaleType="fitCenter"
+                                        app:srcCompat="@drawable/n43" />
+                                </androidx.cardview.widget.CardView>
+
+                                <TextView
+                                    android:id="@+id/textView64"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Party WareHouse"
+                                    android:textColor="@color/white"
+                                    android:textSize="18dp"
+                                    android:textStyle="bold"/>
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Discovery Playlist"
+                                    android:textSize="14dp"
+                                    android:textColor="#828080"
+                                    android:textStyle="bold"/>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginRight="10dp">
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="170dp"
+                                    android:layout_height="170dp"
+                                    app:cardCornerRadius="10dp">
+                                    <ImageView
+                                        android:layout_width="170dp"
+                                        android:layout_height="170dp"
+                                        android:scaleType="fitCenter"
+                                        app:srcCompat="@drawable/n44" />
+                                </androidx.cardview.widget.CardView>
+
+                                <TextView
+                                    android:id="@+id/textView65"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Indie Party"
+                                    android:textColor="@color/white"
+                                    android:textSize="18dp"
+                                    android:textStyle="bold"/>
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Discovery Playlist"
+                                    android:textSize="14dp"
+                                    android:textColor="#828080"
+                                    android:textStyle="bold"/>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginRight="10dp">
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="170dp"
+                                    android:layout_height="170dp"
+                                    app:cardCornerRadius="10dp">
+                                    <ImageView
+                                        android:layout_width="170dp"
+                                        android:layout_height="170dp"
+                                        android:scaleType="fitCenter"
+                                        app:srcCompat="@drawable/n45" />
+                                </androidx.cardview.widget.CardView>
+                                <TextView
+                                    android:id="@+id/textView66"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Clubtonic Rap"
+                                    android:textColor="@color/white"
+                                    android:textSize="18dp"
+                                    android:textStyle="bold"/>
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Discovery Playlist"
+                                    android:textSize="14dp"
+                                    android:textColor="#828080"
+                                    android:textStyle="bold"/>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginRight="10dp">
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="170dp"
+                                    android:layout_height="170dp"
+                                    app:cardCornerRadius="10dp">
+                                    <ImageView
+                                        android:layout_width="170dp"
+                                        android:layout_height="170dp"
+                                        android:scaleType="fitCenter"
+                                        app:srcCompat="@drawable/n46" />
+                                </androidx.cardview.widget.CardView>
+
+                                <TextView
+                                    android:id="@+id/textView67"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="DanceHall Vibes"
+                                    android:textColor="@color/white"
+                                    android:textSize="18dp"
+                                    android:textStyle="bold"/>
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Discovery Playlist"
+                                    android:textSize="14dp"
+                                    android:textColor="#828080"
+                                    android:textStyle="bold"/>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginRight="10dp">
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="170dp"
+                                    android:layout_height="170dp"
+                                    app:cardCornerRadius="10dp">
+                                    <ImageView
+                                        android:layout_width="170dp"
+                                        android:layout_height="170dp"
+                                        android:scaleType="fitCenter"
+                                        app:srcCompat="@drawable/n47" />
+                                </androidx.cardview.widget.CardView>
+
+                                <TextView
+                                    android:id="@+id/textView68"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Superspeed"
+                                    android:textColor="@color/white"
+                                    android:textSize="18dp"
+                                    android:textStyle="bold"/>
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Discovery Playlist"
+                                    android:textSize="14dp"
+                                    android:textColor="#828080"
+                                    android:textStyle="bold"/>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginRight="10dp">
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="170dp"
+                                    android:layout_height="170dp"
+                                    app:cardCornerRadius="10dp">
+                                    <ImageView
+                                        android:layout_width="170dp"
+                                        android:layout_height="170dp"
+                                        android:scaleType="fitCenter"
+                                        app:srcCompat="@drawable/n48" />
+                                </androidx.cardview.widget.CardView>
+
+                                <TextView
+                                    android:id="@+id/textView69"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Party Rap"
+                                    android:textColor="@color/white"
+                                    android:textSize="18dp"
+                                    android:textStyle="bold"/>
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Discovery Playlist"
+                                    android:textSize="14dp"
+                                    android:textColor="#828080"
+                                    android:textStyle="bold"/>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginRight="10dp">
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="170dp"
+                                    android:layout_height="170dp"
+                                    app:cardCornerRadius="10dp">
+                                    <ImageView
+                                        android:layout_width="170dp"
+                                        android:layout_height="170dp"
+                                        android:scaleType="fitCenter"
+                                        app:srcCompat="@drawable/n49" />
+                                </androidx.cardview.widget.CardView>
+
+                                <TextView
+                                    android:id="@+id/textView70"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Party Dubstep"
+                                    android:textColor="@color/white"
+                                    android:textSize="18dp"
+                                    android:textStyle="bold"/>
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Discovery Playlist"
+                                    android:textSize="14dp"
+                                    android:textColor="#828080"
+                                    android:textStyle="bold"/>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginRight="10dp">
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="170dp"
+                                    android:layout_height="170dp"
+                                    app:cardCornerRadius="10dp">
+                                    <ImageView
+                                        android:layout_width="170dp"
+                                        android:layout_height="170dp"
+                                        android:scaleType="fitCenter"
+                                        app:srcCompat="@drawable/n50" />
+                                </androidx.cardview.widget.CardView>
+
+                                <TextView
+                                    android:id="@+id/textView71"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Dance Energy"
+                                    android:textColor="@color/white"
+                                    android:textSize="18dp"
+                                    android:textStyle="bold"/>
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Discovery Playlist"
+                                    android:textSize="14dp"
+                                    android:textColor="#828080"
+                                    android:textStyle="bold"/>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginRight="10dp">
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="170dp"
+                                    android:layout_height="170dp"
+                                    app:cardCornerRadius="10dp">
+                                    <ImageView
+                                        android:layout_width="170dp"
+                                        android:layout_height="170dp"
+                                        android:scaleType="fitCenter"
+                                        app:srcCompat="@drawable/n51" />
+                                </androidx.cardview.widget.CardView>
+
+                                <TextView
+                                    android:id="@+id/textView72"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Disco House Party"
+                                    android:textColor="@color/white"
+                                    android:textSize="18dp"
+                                    android:textStyle="bold"/>
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Discovery Playlist"
+                                    android:textSize="14dp"
+                                    android:textColor="#828080"
+                                    android:textStyle="bold"/>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginRight="10dp">
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="170dp"
+                                    android:layout_height="170dp"
+                                    app:cardCornerRadius="10dp">
+                                    <ImageView
+                                        android:layout_width="170dp"
+                                        android:layout_height="170dp"
+                                        android:scaleType="fitCenter"
+                                        app:srcCompat="@drawable/n52" />
+                                </androidx.cardview.widget.CardView>
+
+                                <TextView
+                                    android:id="@+id/textView73"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Techno Machinista"
+                                    android:textColor="@color/white"
+                                    android:textSize="18dp"
+                                    android:textStyle="bold"/>
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Discovery Playlist"
+                                    android:textSize="14dp"
+                                    android:textStyle="bold"/>
+                            </LinearLayout>
+                        </LinearLayout>
+
+                    </HorizontalScrollView>
+                </ScrollView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal" />
+
+                    </HorizontalScrollView>
+                </ScrollView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Study"
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+                    android:textColor="@color/white"
+                    android:padding="10dp"/>
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal" >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_margin="10dp"
+                                android:orientation="vertical">
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="170dp"
+                                    android:layout_height="170dp"
+                                    app:cardCornerRadius="10dp">
+                                    <ImageView
+                                        android:layout_width="170dp"
+                                        android:layout_height="170dp"
+                                        android:scaleType="fitCenter"
+                                        app:srcCompat="@drawable/n53" />
+                                </androidx.cardview.widget.CardView>
+
+                                <TextView
+                                    android:id="@+id/textView78"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Focus Brainwaves"
+                                    android:textColor="@color/white"
+                                    android:textSize="18dp"
+                                    android:textStyle="bold"/>
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Discovery Playlist"
+                                    android:textSize="14dp"
+                                    android:textColor="#828080"
+                                    android:textStyle="bold"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:orientation="vertical">
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="170dp"
+                                    android:layout_height="170dp"
+                                    app:cardCornerRadius="10dp">
+                                    <ImageView
+                                        android:layout_width="170dp"
+                                        android:layout_height="170dp"
+                                        android:scaleType="fitCenter"
+                                        app:srcCompat="@drawable/n54" />
+                                </androidx.cardview.widget.CardView>
+
+                                <TextView
+                                    android:id="@+id/textView81"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Lofi Library"
+                                    android:textColor="@color/white"
+                                    android:textSize="18dp"
+                                    android:textStyle="bold"/>
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Discovery Playlist"
+                                    android:textSize="14dp"
+                                    android:textColor="#828080"
+                                    android:textStyle="bold"/>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:orientation="vertical">
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="170dp"
+                                    android:layout_height="170dp"
+                                    app:cardCornerRadius="10dp">
+                                    <ImageView
+                                        android:layout_width="170dp"
+                                        android:layout_height="170dp"
+                                        android:scaleType="fitCenter"
+                                        app:srcCompat="@drawable/n55" />
+                                </androidx.cardview.widget.CardView>
+
+                                <TextView
+                                    android:id="@+id/textView82"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="pov: it's 2am and you're studying"
+                                    android:textColor="@color/white"
+                                    android:textSize="18dp"
+                                    android:textStyle="bold"/>
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Discovery Playlist"
+                                    android:textSize="14dp"
+                                    android:textColor="#828080"
+                                    android:textStyle="bold"/>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:orientation="vertical">
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="170dp"
+                                    android:layout_height="170dp"
+                                    app:cardCornerRadius="10dp">
+                                    <ImageView
+                                        android:layout_width="170dp"
+                                        android:layout_height="170dp"
+                                        android:scaleType="fitCenter"
+                                        app:srcCompat="@drawable/n56" />
+                                </androidx.cardview.widget.CardView>
+
+                                <TextView
+                                    android:id="@+id/textView83"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Soul Focus"
+                                    android:textColor="@color/white"
+                                    android:textSize="18dp"
+                                    android:textStyle="bold"/>
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Discovery Playlist"
+                                    android:textSize="14dp"
+                                    android:textColor="#828080"
+                                    android:textStyle="bold"/>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:orientation="vertical">
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="170dp"
+                                    android:layout_height="170dp"
+                                    app:cardCornerRadius="10dp">
+                                    <ImageView
+                                        android:layout_width="170dp"
+                                        android:layout_height="170dp"
+                                        android:scaleType="fitCenter"
+                                        app:srcCompat="@drawable/n57" />
+                                </androidx.cardview.widget.CardView>
+
+                                <TextView
+                                    android:id="@+id/textView84"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Coffee Shops - Laptops"
+                                    android:textColor="@color/white"
+                                    android:textSize="18dp"
+                                    android:textStyle="bold"/>
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Discovery Playlist"
+                                    android:textSize="14dp"
+                                    android:textColor="#828080"
+                                    android:textStyle="bold"/>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:orientation="vertical">
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="170dp"
+                                    android:layout_height="170dp"
+                                    app:cardCornerRadius="10dp">
+                                    <ImageView
+                                        android:layout_width="170dp"
+                                        android:layout_height="170dp"
+                                        android:scaleType="fitCenter"
+                                        app:srcCompat="@drawable/n58" />
+                                </androidx.cardview.widget.CardView>
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Indie Study Zone"
+                                    android:textColor="@color/white"
+                                    android:textSize="18dp"
+                                    android:textStyle="bold"/>
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Discovery Playlist"
+                                    android:textSize="14dp"
+                                    android:textColor="#828080"
+                                    android:textStyle="bold"/>
+                            </LinearLayout>
+                        </LinearLayout>
+
+                    </HorizontalScrollView>
+                </ScrollView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Chill"
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+                    android:textColor="@color/white"
+                    android:padding="10dp"/>
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_margin="10dp"
+                                android:orientation="vertical">
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="170dp"
+                                    android:layout_height="170dp"
+                                    app:cardCornerRadius="10dp">
+                                    <ImageView
+                                        android:layout_width="170dp"
+                                        android:layout_height="170dp"
+                                        android:scaleType="fitCenter"
+                                        app:srcCompat="@drawable/n59" />
+                                </androidx.cardview.widget.CardView>
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Lofi chill beats"
+                                    android:textColor="@color/white"
+                                    android:textSize="18dp"
+                                    android:textStyle="bold"/>
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Discovery Playlist"
+                                    android:textSize="14dp"
+                                    android:textColor="#828080"
+                                    android:textStyle="bold"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:orientation="vertical">
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="170dp"
+                                    android:layout_height="170dp"
+                                    app:cardCornerRadius="10dp">
+                                    <ImageView
+                                        android:layout_width="170dp"
+                                        android:layout_height="170dp"
+                                        android:scaleType="fitCenter"
+                                        app:srcCompat="@drawable/n60" />
+                                </androidx.cardview.widget.CardView>
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Indie Chill"
+                                    android:textColor="@color/white"
+                                    android:textSize="18dp"
+                                    android:textStyle="bold"/>
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Discovery Playlist"
+                                    android:textSize="14dp"
+                                    android:textColor="#828080"
+                                    android:textStyle="bold"/>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:orientation="vertical">
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="170dp"
+                                    android:layout_height="170dp"
+                                    app:cardCornerRadius="10dp">
+                                    <ImageView
+                                        android:layout_width="170dp"
+                                        android:layout_height="170dp"
+                                        android:scaleType="fitCenter"
+                                        app:srcCompat="@drawable/n61" />
+                                </androidx.cardview.widget.CardView>
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Orchestral Unwind"
+                                    android:textColor="@color/white"
+                                    android:textSize="18dp"
+                                    android:textStyle="bold"/>
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Discovery Playlist"
+                                    android:textSize="14dp"
+                                    android:textColor="#828080"
+                                    android:textStyle="bold"/>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:orientation="vertical">
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="170dp"
+                                    android:layout_height="170dp"
+                                    app:cardCornerRadius="10dp">
+                                    <ImageView
+                                        android:layout_width="170dp"
+                                        android:layout_height="170dp"
+                                        android:scaleType="fitCenter"
+                                        app:srcCompat="@drawable/n62" />
+                                </androidx.cardview.widget.CardView>
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="freshest chillest ..."
+                                    android:textColor="@color/white"
+                                    android:textSize="18dp"
+                                    android:textStyle="bold"/>
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Discovery Playlist"
+                                    android:textSize="14dp"
+                                    android:textColor="#828080"
+                                    android:textStyle="bold"/>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:orientation="vertical">
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="170dp"
+                                    android:layout_height="170dp"
+                                    app:cardCornerRadius="10dp">
+                                    <ImageView
+                                        android:layout_width="170dp"
+                                        android:layout_height="170dp"
+                                        android:scaleType="fitCenter"
+                                        app:srcCompat="@drawable/n63" />
+                                </androidx.cardview.widget.CardView>
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Ambient Dust ..."
+                                    android:textColor="@color/white"
+                                    android:textSize="18dp"
+                                    android:textStyle="bold"/>
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Discovery Playlist"
+                                    android:textSize="14dp"
+                                    android:textColor="#828080"
+                                    android:textStyle="bold"/>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:orientation="vertical">
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="170dp"
+                                    android:layout_height="170dp"
+                                    app:cardCornerRadius="10dp">
+                                    <ImageView
+                                        android:layout_width="170dp"
+                                        android:layout_height="170dp"
+                                        android:scaleType="fitCenter"
+                                        app:srcCompat="@drawable/n64" />
+                                </androidx.cardview.widget.CardView>
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Chill Soul"
+                                    android:textColor="@color/white"
+                                    android:textSize="18dp"
+                                    android:textStyle="bold"/>
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Discovery Playlist"
+                                    android:textSize="14dp"
+                                    android:textColor="#828080"
+                                    android:textStyle="bold"/>
+                            </LinearLayout>
+                        </LinearLayout>
+
+                    </HorizontalScrollView>
+                </ScrollView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal" />
+
+                    </HorizontalScrollView>
+                </ScrollView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal" />
+
+                    </HorizontalScrollView>
+                </ScrollView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal" />
+
+                    </HorizontalScrollView>
+                </ScrollView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal" />
+
+                    </HorizontalScrollView>
+                </ScrollView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal" />
+
+                    </HorizontalScrollView>
+                </ScrollView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal" />
+
+                    </HorizontalScrollView>
+                </ScrollView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:background="@drawable/rounded_background"
+        tools:ignore="DisableBaselineAlignment">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:scaleType="fitCenter"
+                app:layout_constraintBottom_toTopOf="@+id/textView8"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/o"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Trang Chủ"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:ignore="HardcodedText" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="search">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:onClick="search"
+                android:scaleType="fitCenter"
+                app:layout_constraintBottom_toTopOf="@+id/textView5"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/o1"
+                tools:ignore="ContentDescription,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tìm Kiếm"
+                android:textStyle="bold"
+                android:onClick="search"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:ignore="HardcodedText" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="thuvien">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:scaleType="fitCenter"
+                android:onClick="thuvien"
+                app:layout_constraintBottom_toTopOf="@+id/textView6"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/o2"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="thuvien"
+                android:text="Thư Viện"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:ignore="HardcodedText,TouchTargetSizeCheck" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
